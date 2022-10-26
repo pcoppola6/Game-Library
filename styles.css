@@ -216,7 +216,7 @@ Menu
   gap: 3rem 2rem;
   justify-items: center;
 }
-.menu-item {
+.library-game {
   display: grid;
   gap: 1rem 2rem;
   max-width: 25rem;
@@ -242,7 +242,7 @@ Menu
 }
 
 @media screen and (min-width: 768px) {
-  .menu-item {
+  .library-game {
     grid-template-columns: 225px 1fr;
     gap: 0 1.25rem;
     max-width: 40rem;
